@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+a, p {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+/*Navbar Section*/
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 8%;
+}
+
+.blocnav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+   height: 100%;
+   width: 20%;
+}
+
+
+
+#gmail {
+    
+}
+#image {
+    
+}
+#menu {
+   
+}
+#se-connecter {
+    align-self: center;
+    background-color: #4683ea;
+    height: 30px;
+    width: 65px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+}
+
+/*Main Section*/
+#main {
+    height: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blockcenter{
+
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+}
+#search {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 98%;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 30px;
+}
+
+#search:focus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px grey;
+}
+#search:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#flexbox {
+    display: flexbox;
+    justify-self: center;
+    align-self: center;
+}
+#google-search-btn {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    margin-right: 25px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#random-search-btn {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#google-search-btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+#random-search-btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+#google-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#english {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+/*Footer Section*/
+#footer {
+    height: 20%;
+    background-color: lightgrey;
+}
+
+.barre-france {
+    
+}
+
+.partie-gauche {
+    display: flex;
+    justify-content: space-around;   
+    width: 35%; 
+    float : left;
+}
+
+.partie-droite {
+    display: flex;
+    justify-content: space-around;
+    float : right;
+    width : 30%;
+
+    
+}
